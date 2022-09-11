@@ -1,7 +1,8 @@
 const Ninjas = () => {
     return (
         <div className="ninjas-container">
-            <p>This are all ninjas</p>
+            <h1>Items Page</h1>
+            <p>This are all the items</p>
         </div>
     );
 };
