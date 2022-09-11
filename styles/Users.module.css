@@ -1,0 +1,26 @@
+.single {
+    padding: 2px 16px;
+    background: #fff;
+    display: block;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border-left: 8px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+.single:hover {
+    transition: ease-in-out .5s;
+    border-left: 8px solid #4979ff;
+}
+
+.cardName {
+    margin-bottom: 0px;
+}
+
+/* details */
+
+.label {
+    margin-bottom: 0;
+    font-size: 14px;
+}

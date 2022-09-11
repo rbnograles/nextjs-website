@@ -17,8 +17,8 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim adipiscing elit.
             </p>
-            <Link href={"/items"}>
-                <a className={styles.btn}>See Item Listing</a>
+            <Link href={"/users"}>
+                <a className={styles.btn}>See Users Listing</a>
             </Link>
         </div>
     );
