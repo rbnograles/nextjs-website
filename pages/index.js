@@ -1,11 +1,8 @@
 import Link from "next/link";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <h1>Home Page</h1>
             <p>
                 loremipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -24,7 +21,6 @@ const Home = () => {
             <Link href={"/ninjas"}>
                 <a>See Ninja Listing</a>
             </Link>
-            <Footer />
         </div>
     );
 };
